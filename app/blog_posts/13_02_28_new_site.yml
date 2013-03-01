@@ -1,0 +1,6 @@
+title: New Arcath.net
+body: "I have been scratching my head for ages trying to come up with ways of making this site look nicer. I kept starting something then getting half way through and thinking \"This is a simple site about me, it doesn't need to be this complex\"\r\n\r\n
+It took a while but I finally settled on something that worked for me. This site uses 3 colours 2 font weights and some underlining, it doesn't do anything it doesn't need to or say anything I don't need to say. As always the source for it is at [url=https://github.com/Arcath/Arcath.net]Arcath/Arcath.net[/url]\r\n\r\n
+This is also the first site to use my new [url=http://sinatrarb.com]Sinatra[/url] framework [url=http://github.com/Arcath/mosaic]Mosaic[/url] which is a refined version of the application running over at [url=http://www.ed-itsolutions.com]ed-itsolutions.com[/url]. I hope to be doing a lot with the framework over the next few weeks as it keeps sinatras flexibility whilst giving a consistent interface to make my life easier."
+summary: "A new Arcath.net is here, and doesn't it look minimal"
+date: "28<sup>th</sup> February 2013"

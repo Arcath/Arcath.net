@@ -1,0 +1,28 @@
+<div id="blog">
+	<div class="post">
+		<div class="details">
+			<b>Blog</b>
+		</div>
+		<div class="body">
+			<p>This is the blog of <%= link_to "Adam Laycock", "/" %>, an IT Engineer &amp; Web Developer from the North West of England.</p>
+		</div>
+	</div>
+	
+	<% Blog.posts.each do |post| %>
+		<% info = YAML.load(File.open("app/blog_posts/#{post}"))%>
+		<div class="post">
+			<div class="details">
+				<p>
+					<b><%= link_to info["title"], "/blog/#{post.split(".").first}" %></b><br />
+					<%= info["date"] %>
+				</p>
+			</div>
+		
+			<div class="body">
+				<p>
+					<%= info["summary"] %>
+				</p>
+			</div>
+		</div>
+	<% end %>
+</div>
