@@ -60,7 +60,7 @@ task :deploy => :environment do
     #invoke :'rails:assets_precompile'
 
     to :launch do
-      #queue 'touch tmp/restart.txt'
+      queue '/etc/init.d/my_mosaic restart'
     end
   end
 end
