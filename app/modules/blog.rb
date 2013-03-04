@@ -1,9 +1,13 @@
 class Blog < Mosaic::Module
-  respond_to :get, "/blog"
+  respond_to :get, "/blog.?:format?"
   respond_to :get, "/blog/:post"
   
   def handle
-    @response.content = :"blog/index.html" unless @params[:post]
+    format = "html"
+    format = @params[:format].split(".").last if @params[:format]
+    format = "html" if format == "blog"
+    @response.layout = :"layouts/application.#{format}"
+    @response.content = :"blog/index.#{format}" unless @params[:post]
     @response.content = :"blog/show.html" if @params[:post]
   end
   

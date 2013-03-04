@@ -1,0 +1,8 @@
+<% Blog.posts.each do |post| %>
+	<% info = YAML.load(File.open("app/blog_posts/#{post}"))%>
+	<item>
+		<title><%= info["title"] %></title>
+		<link>http://www.arcath.net/blog/post/<%= post.split(".").first %></link>
+		<description><%= info["summary"] %></description>
+	</item>
+<% end %>
