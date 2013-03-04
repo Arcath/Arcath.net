@@ -1,7 +1,7 @@
 source :rubygems
 
 # Mosaic Gem
-gem 'mosaic', path: "~/code/mosaic"
+gem "mosaic", "~> 0.0.1pre"
 
 # Mosaic Required Gems
 gem 'sinatra-static-assets', require: 'sinatra/static_assets'
