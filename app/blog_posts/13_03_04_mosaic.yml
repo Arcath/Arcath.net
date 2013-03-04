@@ -1,0 +1,10 @@
+title: Mosaic
+body: "I have done a lot of work recently making semi static sites and I felt that Rails was overkill for my needs. [url=http://sinatrarb.com]Sinatra[/url] is the obvious answer here and its exactly what I used to make the new [url=http://www.ed-itsolutions.com]Ed-IT Solutions[/url] website but I felt that the modular system I built needed to be seperated out. Mainly so I could keep the application code away from the views and to make the system easily re-usable.\r\n\r\n
+Mosaic is the product of this seperation, a super simple framework that gives some features over Sinatra. There are 3 provided modules that you can require in your [i]config/mosaic.rb[/i]\r\n\r\n
+[ul][li][b]Static[/b] A static page module which uses the route [i]*[/i] and will mirror for folder structure in [i]views/[/i], e.g. [i]/about_us[/i] would serve [i]views/about_us/index.html.erb[/i][/li]
+[li][b]Info[/b] A one page module to give you information about the environment e.g. Mosaic version etc... responds to [url]/__mosaic__/info[/url][/li]
+[li][b]SASS[/b] Adds the SASS middleware which turns [i]public/stylesheets/sass/*.scss[/i] into [i]public/stylesheets/*.css[/i]. Disabled by default as it requires extra gems (commented out in the Gemfile)[/li][/ul]\r\n\r\n
+I also threw in [url=https://github.com/wbzyl/sinatra-static-assets/]Sinatra::StaticAssets[/url] to give a more Rails like view writing experiance.\r\n\r\n
+All in all its just another web framework (because we need more of those), but I just wanted to share it and who knows it might save someone else a load of work which is why we share these things."
+summary: "A Simple framework built off Sinatra to make created simple semi static sites quick and painless"
+date: "4<sup>th</sup> March 2013"

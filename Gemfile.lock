@@ -1,9 +1,3 @@
-PATH
-  remote: ~/code/mosaic
-  specs:
-    mosaic (0.0.1pre)
-      sinatra
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -11,6 +5,8 @@ GEM
     kgio (2.7.4)
     markabb (1.0.0)
       coderay
+    mosaic (0.0.1pre)
+      sinatra
     rack (1.4.4)
     rack-protection (1.3.2)
       rack
@@ -33,7 +29,7 @@ PLATFORMS
 
 DEPENDENCIES
   markabb
-  mosaic!
+  mosaic (~> 0.0.1pre)
   sass
   sinatra-static-assets
   unicorn
