@@ -59,5 +59,6 @@ a:hover {
     width: 650px;
     margin-top: 100px; }
     #blog .post .body p {
+      min-height: 71px;
       margin-top: 0px;
       margin-bottom: 30px; }
