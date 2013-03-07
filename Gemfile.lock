@@ -2,11 +2,14 @@ GEM
   remote: http://rubygems.org/
   specs:
     coderay (1.0.8)
+    hike (1.2.1)
     kgio (2.7.4)
     markabb (1.0.0)
       coderay
-    mosaic (0.0.1pre)
-      sinatra
+    mosaic (0.0.1pre2)
+      sinatra (~> 1.3)
+      sprockets (~> 2.9)
+    multi_json (1.6.1)
     rack (1.4.4)
     rack-protection (1.3.2)
       rack
@@ -18,6 +21,11 @@ GEM
       tilt (~> 1.3, >= 1.3.3)
     sinatra-static-assets (1.0.4)
       sinatra (>= 1.1.0)
+    sprockets (2.9.0)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
     tilt (1.3.3)
     unicorn (4.4.0)
       kgio (~> 2.6)
@@ -29,7 +37,8 @@ PLATFORMS
 
 DEPENDENCIES
   markabb
-  mosaic (~> 0.0.1pre)
+  mosaic (~> 0.0.1pre2)
   sass
   sinatra-static-assets
+  sprockets (~> 2.9)
   unicorn
