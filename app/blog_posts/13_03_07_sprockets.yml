@@ -1,0 +1,6 @@
+title: "Sprockets!"
+body: "Sprockets is the amazing gem that provides the asset pipeline in Rails and it now provides the same functionaily in Mosaic!\r\n\r\n
+This means that in the root of a mosaic application there is now a folder called \"assets\" which is where all your css/js/images etc... needs to go. Sprockets makes adding parsers really easy, for example to get SASS working before Sprockets you needed to require the gem and then require the supplied mosaic module to load the middleware. With Sprockets you just need to add the gem to your Gemfile! This goes for anything, want coffe-script? just require the gem!\r\n\r\n
+Mosaic 0.0.1pre2 now uses the latest versions of all its dependencies and I feel its pretty close to loosing its pre status and being released as a stable usable version."
+summary: "Mosaic now sports an asset pipeline through sprockets!"
+date: "7<sup>th</sup> March 2013"
