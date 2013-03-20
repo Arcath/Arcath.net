@@ -2,6 +2,12 @@ GEM
   remote: http://rubygems.org/
   specs:
     coderay (1.0.8)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.1)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
     hike (1.2.1)
     kgio (2.7.4)
     markabb (1.0.0)
@@ -36,6 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coffee-script
   markabb
   mosaic (~> 0.0.1)
   sass

@@ -8,6 +8,7 @@ gem 'sinatra-static-assets', require: 'sinatra/static_assets'
 gem 'sprockets', '~> 2.9'
 
 # Your Gems
+gem 'coffee-script'
 gem 'markabb'
-gem 'sass' # Required for Mosaic::Modules::Sass
+gem 'sass'
 gem 'unicorn'
