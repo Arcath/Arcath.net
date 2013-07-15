@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
 # Mosaic Gem
 gem "mosaic", "~> 0.0.1"
