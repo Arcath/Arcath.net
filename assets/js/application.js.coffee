@@ -3,12 +3,6 @@ $(document).ready(() ->
 		$(this).data("default_offset", $(this).offset().top)
 	)
 	
-	$('.para:even').addClass("blue_box")
-	$('.post:even').addClass("blue_box")
-	$('.blue_box').each(() ->
-		$(this).append("<div class=\"blue_highlight\"></div>")
-	)
-	
 	$('.blue_highlight').each(() ->
 		$(this).css("position", "absolute")
 		$(this).css("left", "0px")
