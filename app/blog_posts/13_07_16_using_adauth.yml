@@ -1,0 +1,8 @@
+title: "Why Adauth"
+summary: "How and why would one use Adauth?"
+date: "16<sup>th</sup> July 2013"
+body: "Over the past couple of weeks I have spent alot of time working on Adauth adding minor improvements to the code and refactoring a lot of it. What I wan't to go over here is the how and why of Adauth.\r\n\r\n
+First off why use it?\r\n\r\n
+Active Directory is Microsofts LDAP service which runs on Windows Server and is used by companies all over the planet to manage users and groups. AD does a lot more that users &amp; groups and intergrates entirely with many services on Windows Server and most importantly intergrates with lots of 3rd Party services. A lot of popular software titles can either sync with or directly talk to AD to provide Authentication, which turns AD into a SSO (Signle Sign On) Solution.\r\n\r\n
+Adauth started off as some embedded code in one of the apps I wrote for [url=http://www.ed-itsolutions.com]Ed-IT Solutions[/url] but I very quickly realised how much better it would be to use this on all apps and end all the \"I've forgotten my password for X\" messages I got. So very quickly that day Adauth 0.0.1 was born and intergrated into all our applications.\r\n\r\n
+Now 2 years down the line Adauth has grown to have a pretty hefty feature list with more being added all the time. The 2.x code which released a few weeks ago is a 100% rewrite from scratch with none of the 1.x code coming over. This new version was built around a super class for all objects in AD with special methods like [i]authenticate[/i] being defined in the sub classes."

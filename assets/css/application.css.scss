@@ -7,10 +7,12 @@ $blog-p-gap:100px;
 body{
 	font-family:lato, sans-serif;
 	color:#444;
+  background-color:#fff;
 }
 
 a{
 	color:#9bf;
+  text-decoration:none;
 }
 
 a:hover{
@@ -73,8 +75,7 @@ a:hover{
 					margin-bottom:10px;
 					a{
 						font-weight:bold;
-						color:#444;
-					}
+          }
 				}
 			}
 		}
